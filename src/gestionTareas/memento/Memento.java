@@ -10,10 +10,7 @@ public class Memento{
     public String obtenerAccionEjecutada() {
         return accionEjecutada;
     }
-
-    public void asignarAccionEjecutada(String accionEjecutada) {
-        this.accionEjecutada = accionEjecutada;
-    }
+    
 
 
 }
