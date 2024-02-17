@@ -1,29 +1,24 @@
-package gestiontareas.main;
+package gestionTareas.main;
 
-import gestiontareas.invoker.Invoker;
-import gestiontareas.modelocomandos.Comando;
-import gestiontareas.modelocomandos.ComandoCompletar;
-import gestiontareas.modelocomandos.ComandoCrear;
-import gestiontareas.modelotareas.Tarea;
+
+import gestionTareas.gestor.GestorHistorial;
+import gestionTareas.originador.Tarea;
 
 public class Main {
-    public static void main(String[] args) throws InterruptedException {
-        Invoker invocador =new Invoker();
+    public static void main(String[] args) {
+        GestorHistorial gestorHistorial = new GestorHistorial();
+        Tarea tarea = new Tarea();
 
-        Tarea tarea = new Tarea("Realizar ejercicios calculo");
+        gestorHistorial.agregarMarcador(tarea.crearMarcador());
+        tarea.realizarAccion("EDITADA");
+        gestorHistorial.agregarMarcador(tarea.crearMarcador());
+        tarea.realizarAccion("BORRADA");
+        gestorHistorial.agregarMarcador(tarea.crearMarcador());
 
+        tarea.aplicarMarcador(gestorHistorial.obtenerMarcador(1));
 
-        Comando comandoCrearTarea = new ComandoCrear(tarea);
-        Comando comandoCompletarTarea = new ComandoCompletar(tarea);
+        //Si se quiere volver a la última acción editada sería.
+        tarea.aplicarMarcador(gestorHistorial.obtenerMarcador(gestorHistorial.obtenerLargoMarcadores()-1));
 
-        invocador.ejecutarComando(comandoCrearTarea);
-
-        tarea.getTarea();
-
-        Thread.sleep(5000);
-
-        invocador.ejecutarComando(comandoCompletarTarea);
-
-        tarea.getTarea();
     }
 }
