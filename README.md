@@ -23,5 +23,13 @@ Diagrama de clases:
 ![Imagen de WhatsApp 2024-02-17 a las 00 19 28_6510ae8e](https://github.com/Camilotavi/PatronesDise-o/assets/124814705/054e6e71-bd3c-49d6-9f58-cc82f9569c48)
 
 
+Para el 5 ejercicio el tipo de patron necesario es estructural ya que la problematica gira entorno a la ensamblacion de objetos complejos, en este caso ensamblacion entre formas de envio de paquetes con distintos tipos de envios.  
+Se uso Bridge.  
+Diagrama de clases:  
+
+![image](https://github.com/Camilotavi/PatronesDise-o/assets/124814705/85973478-04f8-4bd4-86e9-5ca351989ac3)
+
+
+
 
 
