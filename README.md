@@ -20,7 +20,8 @@ Para el 4 ejercicio el tipo de patron necesario es estructural ya que estos expl
 Se uso Decorator
 Diagrama de clases:
 
-[...]
+![Imagen de WhatsApp 2024-02-17 a las 00 19 28_6510ae8e](https://github.com/Camilotavi/PatronesDise-o/assets/124814705/054e6e71-bd3c-49d6-9f58-cc82f9569c48)
+
 
 
 
