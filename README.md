@@ -35,6 +35,8 @@ Diagrama de clases:
 ![image](https://github.com/Camilotavi/PatronesDise-o/assets/124814705/85973478-04f8-4bd4-86e9-5ca351989ac3)
 
 
+Leve problema al mergear y quedó una carpeta llamada gestiontareas/main, hacer caso omiso
+
 
 
 
