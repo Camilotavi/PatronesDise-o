@@ -1,4 +1,4 @@
-# PatronesDise-o
+# Patrones Diseño
 Patrones de diseño
 Para el primer ejercicio el tipo de patron necesario es de comportamiento ya que se establece que el patron debe definir una clase padre y permitir que subclases implementen pasos especificos. Es necesario un patron que permita comuncacion entre esta clase comun y sus subclases.  
 Se uso Template Method.  
