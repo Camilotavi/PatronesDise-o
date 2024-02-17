@@ -8,6 +8,9 @@ Diagrama de clases:
 
 El ejercicio 2 resulto ser un patrón estructural de tipo memento puesto que en los requerimientos se solicita que la con la tyarea bse puedan realizar operaciones CRUD pero además que el administrador sea capaz de volver al estado anterior por lo que el patrón de memento se ajusta a la perfección a la situación planteadad y cumple los requisitos.
 
+![image](https://github.com/Camilotavi/PatronesDise-o/assets/110574175/d33fe597-2059-41b7-81c2-3a4f5cd1fa31)
+
+
 
 
 Para el 3 ejercicio el tipo de patron necesario es creacional ya que estos proporcionan varios mecanismos de creación de objetos que incrementan la flexibilidad y la reutilización del código existente; y en el contexto del ejercicio, es necesario dar posibilidad para creacion de varios menus y cuando se vaya a crear un nuevo menu no se requiera hacer un codigo totalmente nuevo para su creacion.  
